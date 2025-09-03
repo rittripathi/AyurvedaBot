@@ -1,0 +1,53 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-lora {
+    font-family: 'Lora', serif;
+}
+
+/* Custom scrollbar for a more aesthetic feel */
+.chat-window::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-window::-webkit-scrollbar-track {
+    background: #e5e0d8;
+    border-radius: 10px;
+}
+
+.chat-window::-webkit-scrollbar-thumb {
+    background: #86A873;
+    border-radius: 10px;
+}
+
+.chat-window::-webkit-scrollbar-thumb:hover {
+    background: #6b8c5e;
+}
+
+/* Typing indicator animation */
+.typing-indicator span {
+    height: 8px;
+    width: 8px;
+    float: left;
+    margin: 0 1px;
+    background-color: #86A873;
+    display: block;
+    border-radius: 50%;
+    opacity: 0.4;
+    animation: 1s blink infinite;
+}
+
+.typing-indicator span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 1;
+    }
+}
