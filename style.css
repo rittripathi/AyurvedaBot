@@ -7,21 +7,25 @@ body {
 }
 
 /* Custom scrollbar for a more aesthetic feel */
-.chat-window::-webkit-scrollbar {
+.chat-window::-webkit-scrollbar,
+.options-window::-webkit-scrollbar {
     width: 6px;
 }
 
-.chat-window::-webkit-scrollbar-track {
+.chat-window::-webkit-scrollbar-track,
+.options-window::-webkit-scrollbar-track {
     background: #e5e0d8;
     border-radius: 10px;
 }
 
-.chat-window::-webkit-scrollbar-thumb {
+.chat-window::-webkit-scrollbar-thumb,
+.options-window::-webkit-scrollbar-thumb {
     background: #86A873;
     border-radius: 10px;
 }
 
-.chat-window::-webkit-scrollbar-thumb:hover {
+.chat-window::-webkit-scrollbar-thumb:hover,
+.options-window::-webkit-scrollbar-thumb:hover {
     background: #6b8c5e;
 }
 
@@ -51,3 +55,4 @@ body {
         opacity: 1;
     }
 }
+
