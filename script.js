@@ -468,7 +468,7 @@ const qaPairs = [
         <li>Lemon juice (10ml) + onion extract (20ml) + honey.</li>
       </ul>
     `
-  }
+  },
   
   {
     question: "vomiting",
@@ -548,7 +548,7 @@ const qaPairs = [
         <li>3-4 spoon aloevera gel scalp massage, leave for 2-3 hrs, rinse with water & shampoo. Do this 2 times a week.</li>
       </ul>
     `
-  }
+  },
   
   {
     question: "vomiting",
