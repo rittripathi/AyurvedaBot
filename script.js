@@ -28,21 +28,28 @@ const qaPairs = [
     question: "diabetes mellitus",
     keywords: ["diabetes", "sugar", "madhumeh", "डायबिटीज", "मधुमेह"],
     answer: `
-      <p class="font-bold mb-2 text-green-800">✅ Pathya:</p>
+      <p class="font-bold mb-2 text-green-800">Consume :</p>
       <ul class="list-disc list-inside text-sm space-y-1">
-        <li>Sprouted green gram, fenugreek, lentils, gram.</li>
-        <li>Bitter gourd, parwal, bottle gourd, torayi, tomato.</li>
-        <li>Amla, jamun fruit, jamun seed powder, fenugreek seed water (5–7 times daily).</li>
-        <li>Neem leaves, papaya, guava.</li>
-        <li>Plain milk, buttermilk.</li>
+        <li>Wheat flour, moong and sprouted pulses, black gram,
+green leafy vegetables, ajwain seeds, munakka , ginger , Malta, bottle gourd, basil/tulsi leaves, mint, parwal, drumstick, kattu, tinda, bitter gourd etc.
+Grapes, seasonal fruits, papaya, pomegranate, orange, apple, guava, pineapple,
+almond, buttermilk, mustard, cow ghee, jaggery, honey etc.</li>
+        
       </ul>
-      <p class="font-bold mt-4 mb-2 text-red-800">❌ Apathya:</p>
+      <p class="font-bold mt-4 mb-2 text-red-800">Prohibited:</p>
       <ul class="list-disc list-inside text-sm space-y-1">
-        <li>Long sitting, day-sleep after meals.</li>
-        <li>New grains, rice, curd, sugarcane juice, apple.</li>
-        <li>Honey, sweets, ice cream, cold drinks, refined flour products.</li>
-        <li>Late-night eating, smoking, alcohol.</li>
-      </ul>
+        <li>Unhealthy foods: Cake, pizza, salt, fried and packed foods, butter, meat, vegetable oil products,foods made of refined flour and gram flour, jackfruit, cashew, walnut, alcohol, pickles, sauce, biscuits, chips, smoking etc</li>
+</ul>
+
+ </ul>
+      <p class="font-bold mt-4 mb-2 text-red-800">पथ्य</p>
+      <ul class="list-disc list-inside text-sm space-y-1">
+        <li>गेहूँ का आटा, मूँग साबुत तथा अंकुरि रि त दालें, काले चने
+हरी पत्तेदार सब्जियाँ, अजवायन, मुनक्का
+अदरक, बड ा नींबू, मालटा, लौकी, तुलसीपत्र, तोरई, पुदीना, परवल, सहिजन, कदू, टिण्डा, करेला आदि ।
+अँगूर, मौसमी, पपीता, अनार, संतरा, सेब, अमरूद, अनानास
+बादाम,छाछ, सरसों, गाय का घी, पुराना गुड़ , शहद आदि ।</li>
+</ul>
     `
   },
 
